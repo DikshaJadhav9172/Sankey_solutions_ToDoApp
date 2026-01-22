@@ -1,7 +1,7 @@
 # Sankey Solutions To-Do App
 
 Live Demo (React Version):  
-[https://sankey-solutions-to-do-app.vercel.app/](https://sankey-solutions-to-do-app-react.vercel.app/)
+[https://sankey-solutions-to-do-app-react.vercel.app/](https://sankey-solutions-to-do-app-react.vercel.app/)
 
 Live Demo (Plain JavaScript version):
 [https://sankey-solutions-to-do-app-js.vercel.app](https://sankey-solutions-to-do-app-js.vercel.app/)
