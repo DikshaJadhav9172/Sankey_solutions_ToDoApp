@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Task Manager</title>
+
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="app-box">
+
+          <h1 class="text-center mb-3">My Task Manager</h1>
+
+
+          <div class="alert alert-warning text-center" id="joke">
+            Loading joke...
+          </div>
+
+
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              id="taskInput"
+              class="form-control"
+              placeholder="Enter a new task..."
+            />
+            <button class="btn btn-primary" id="addTaskBtn">
+              Add Task
+            </button>
+          </div>
+
+
+          <div class="d-flex justify-content-between mb-1">
+            <span>
+              Completed:
+              <strong><span id="completedCount">0</span></strong>
+              /
+              <span id="totalCount">0</span>
+            </span>
+            <span id="percentage">0%</span>
+          </div>
+
+          <div class="progress mb-3">
+            <div
+              class="progress-bar"
+              id="progressBar"
+              style="width: 0%"
+            ></div>
+          </div>
+
+
+          <div class="list-group" id="taskList"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
