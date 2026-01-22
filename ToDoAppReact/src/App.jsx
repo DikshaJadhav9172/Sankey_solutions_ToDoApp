@@ -10,6 +10,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [joke, setJoke] = useState("");
 
+
   useEffect(() => {
     const savedTasks = JSON.parse(localStorage.getItem("tasks"));
     if (savedTasks) {
