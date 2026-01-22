@@ -1,7 +1,10 @@
 # Sankey Solutions To-Do App
 
 Live Demo (React Version):  
-https://sankey-solutions-to-do-app.vercel.app/
+[https://sankey-solutions-to-do-app.vercel.app/](https://sankey-solutions-to-do-app-react.vercel.app/)
+
+Live Demo (Plain JavaScript version):
+[https://sankey-solutions-to-do-app-js.vercel.app](https://sankey-solutions-to-do-app-js.vercel.app/)
 
 ---
 
@@ -10,7 +13,7 @@ https://sankey-solutions-to-do-app.vercel.app/
 **Sankey Solutions To-Do App** is a task management web application implemented in **two versions**:
 
 1. **React Version** – built using React (Vite), Bootstrap, and Axios  
-2. **Plain JavaScript Version** – built using HTML, CSS, and  JavaScript  
+2. **Plain JavaScript Version** – built using HTML, CSS, and JavaScript  
 
 This dual implementation demonstrates both **modern frontend development** and **core JavaScript fundamentals**.
 
