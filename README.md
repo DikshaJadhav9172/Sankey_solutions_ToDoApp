@@ -1,76 +1,83 @@
 # Sankey Solutions To-Do App
 
-Live demo: https://sankey-solutions-to-do-app.vercel.app/
-
-## 🚀 Project Overview
-
-**Sankey Solutions To-Do App** is a modern task management web application built with React (Vite), Bootstrap, and Axios.  
-It allows users to efficiently manage their daily tasks with features including:
-
-- Add, edit, delete tasks  
-- Mark tasks as completed or pending  
-- Persistent storage using Local Storage  
-- Dynamic task progress tracking  
-- Random joke displayed each time the app loads  
-
-The app is fully responsive and styled with a clean UI.
+Live Demo (React Version):  
+https://sankey-solutions-to-do-app.vercel.app/
 
 ---
 
-## 🧩 Features
+## 🚀 Project Overview
+
+**Sankey Solutions To-Do App** is a task management web application implemented in **two versions**:
+
+1. **React Version** – built using React (Vite), Bootstrap, and Axios  
+2. **Plain JavaScript Version** – built using HTML, CSS, and Vanilla JavaScript  
+
+This dual implementation demonstrates both **modern frontend development** and **core JavaScript fundamentals**.
+
+---
+
+## 📂 Project Structure
+
+Sankey_solutions_ToDoApp
+├── ToDoAppReact
+│ ├── src
+│ ├── public
+│ ├── package.json
+│ └── vite.config.js
+│
+├── ToDoAppJS
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+└── README.md
+
+
+---
+
+## 🟦 React Version (ToDoAppReact)
+
+### ✨ Features
 
 ✔ Add new tasks  
 ✔ Edit existing tasks  
 ✔ Delete tasks  
-✔ Toggle completion status  
-✔ Task progress bar (% completed)  
+✔ Mark tasks as completed or pending  
+✔ Task progress tracking  
 ✔ Local Storage persistence  
-✔ Fetch a random (safe) joke from API  
-✔ Visually appealing UI with shadows & responsive layout  
-✔ Live deployment using Vercel
+✔ Fetch a random (safe) joke from public API  
+✔ Responsive and modern UI  
+✔ Live deployment using Vercel  
 
 ---
 
-## 🛠 Built With
+### 🛠 Built With (React Version)
 
 | Technology | Description |
-|------------|-------------|
-| **React** | JavaScript UI library |
-| **Vite** | Fast frontend build tool |
-| **Bootstrap 5** | UI components and responsive layout |
-| **Axios** | HTTP client for API calls |
-| **Local Storage** | Browser persistence |
-| **Vercel** | Hosted live deployment |
+|-----------|------------|
+| React | JavaScript UI library |
+| Vite | Fast frontend build tool |
+| Bootstrap 5 | Responsive UI framework |
+| Axios | HTTP client for API calls |
+| Local Storage | Browser persistence |
+| Vercel | Deployment platform |
 
 ---
 
-## 🧠 How It Works
+### 🧠 How It Works (React)
 
-The app stores all tasks in the browser’s **Local Storage**, so your tasks persist even after:
-
-- Refreshing the page  
-- Closing the browser  
-- Re-opening the app later
-
-Progress is calculated automatically based on how many tasks are marked complete.
-
-At startup, the app also fetches a lighthearted joke from a public API and displays it at the top of the page.
+- Tasks are stored as an array of objects in React state  
+- UI updates automatically on state changes  
+- Tasks persist using Local Storage  
+- Progress is calculated dynamically  
+- API calls are handled asynchronously  
 
 ---
 
-## 📦 Installation & Setup
-
-To run this project locally:
+### ▶️ Run React Version Locally
 
 ```bash
-# Clone the repository
 git clone https://github.com/DikshaJadhav9172/Sankey_solutions_ToDoApp.git
-
-# Navigate into project
-cd Sankey_solutions_ToDoApp/ToDoApp
-
-# Install dependencies
+cd Sankey_solutions_ToDoApp/ToDoAppReact
 npm install
-
-# Start development server
 npm run dev
