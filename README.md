@@ -60,3 +60,54 @@ git clone https://github.com/DikshaJadhav9172/Sankey_solutions_ToDoApp.git
 cd Sankey_solutions_ToDoApp/ToDoAppReact
 npm install
 npm run dev
+```
+
+---
+
+## 🟨 Plain JavaScript Version (ToDoAppJS)
+
+### ✨ Features
+
+✔ Add tasks  
+✔ Edit tasks  
+✔ Delete tasks  
+✔ Toggle task completion  
+✔ Dynamic progress bar  
+✔ Local Storage persistence  
+✔ Asynchronous API call using Fetch  
+✔ Responsive UI  
+✔ No frameworks used  
+
+---
+
+### 🛠 Built With (Plain JS)
+
+| Technology | Description |
+|----------|------------|
+| HTML5 | Application structure |
+| CSS3 | Styling and responsiveness |
+| JavaScript (ES6+) | Logic and DOM manipulation |
+| Local Storage | Data persistence |
+| Fetch API | API integration |
+
+---
+
+### 🧠 JavaScript Concepts Demonstrated
+
+- Variables and data types  
+- Functions  
+- Arrays and objects  
+- DOM manipulation  
+- Event listeners  
+- ES6+ features  
+- Asynchronous JavaScript  
+- Browser Local Storage  
+
+---
+
+### ▶️ Run Plain JavaScript Version
+
+```bash
+git clone https://github.com/DikshaJadhav9172/Sankey_solutions_ToDoApp.git
+cd Sankey_solutions_ToDoApp/ToDoAppJS
+
